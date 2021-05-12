@@ -1,0 +1,13 @@
+t = (1992, 'C++', 'Java', 'Python')
+list = list(t)
+print('Elemento da lista: ', list)
+
+list.extend('ApKZUbe')
+list.append('Apkzube'[-1: :-1])
+print(list.index('Java'))
+print(list.insert(1, 'Python3'))
+print(list.pop())
+print(list.pop(2))
+print(list.remove('Java'))
+print(list.reverse())
+print('Elemento da lista:', list)

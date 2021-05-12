@@ -1,0 +1,5 @@
+print('$'+'='*20+'$')
+n = str(input('Coloque os valores da mega sena: ')).strip()
+c = str(input('Digite um número que vc quer saber quantas vezes caiu: '))
+#print('A numeração {} aparece {} vezes.'.format(c, n.count(c)+1))
+print('$'+'='*20+'$')

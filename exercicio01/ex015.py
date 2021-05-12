@@ -1,0 +1,5 @@
+n = str(input('Digite o nome: ')).strip()
+c = n.split()
+print('nome primeiro: {}'.format(c[0]))
+print('nome do meio: {}'.format(c[1]))
+print('nome final: {}'.format(c[len(c)-1]))

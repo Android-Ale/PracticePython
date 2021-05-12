@@ -1,0 +1,8 @@
+metro = float(input('Digite uma distancia em metros:'))
+print('A medida de {:.1f}m corresponde a'.format(metro))
+print('{}km'.format(metro/1000))
+print('{}hm'.format(metro/100))
+print('{}dam'.format(metro/10))
+print('{:.0f}dm'.format(metro*10))
+print('{:.0f}cm'.format(metro*100))
+print('{:.0f}mm'.format(metro*1000))
